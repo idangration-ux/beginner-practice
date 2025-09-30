@@ -3,7 +3,8 @@ using namespace std;
 void arrayAnalyzer(int size, int number[]) { 
 cout << "Enter ten integers of your choice:\n";
  for (int i = 0; i < size; i++) {
- cout << "Number " << i + 1 << ": "; cin >> number[i];
+ cout << "Number " << i + 1 << ": ";
+  cin >> number[i];
  } 
 cout << "\nYOU ENTERED THESE NUMBERS:\n";
  for (int i = 0; i < size; i++) {
@@ -35,3 +36,4 @@ cout << "The second largest number is: " << secondLargest << "\n";
 arrayAnalyzer(SIZE, number); 
 return 0; 
 } 
+
